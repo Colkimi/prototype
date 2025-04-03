@@ -5,6 +5,7 @@ import argparse
 import sqlite3
 import random
 from flask import Flask, request
+from cryptography.fernet import Fernet
 
 # Generate a unique flag
 def generate_flag():
