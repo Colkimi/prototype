@@ -5,3 +5,7 @@
 
   #### Example           
     python3 challenge_generator.py --type web --difficulty medium
+
+  ### CTFORGE
+
+     the tool is designed to autogenerate challenges for ctf from your terminal
