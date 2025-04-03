@@ -9,3 +9,8 @@
   ### CTFORGE
 
      the tool is designed to autogenerate challenges for ctf from your terminal
+
+  ### Installations 
+
+  #### piexif
+        pip install piexif
