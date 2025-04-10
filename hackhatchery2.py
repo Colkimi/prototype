@@ -84,6 +84,7 @@ class ChallengeGenerator:
         conn.commit()
         conn.close()
 
+    #Create and save the web challenge files
     def _generate_web_challenge_files(self, challenge_type: WebChallengeType, 
                                     challenge_dir: Path, db_path: Path, flag: str) -> Dict[str, Any]:
         """Generate files for specific web challenge type"""
