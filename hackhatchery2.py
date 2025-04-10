@@ -347,7 +347,7 @@ fernet.decrypt(encrypted_flag.encode()).decode()"""
             challenge_info["tools"].append("exiftool")
             
         elif challenge_type == ForensicsChallengeType.PCAP_ANALYSIS:
-            # Create fake PCAP with flag
+            # Creating a PCAP with the flag
             with open(challenge_dir / "traffic.pcap", "wb") as f:
                 f.write(b"\xd4\xc3\xb2\xa1")  # PCAP magic number
                 f.write(b"\x00" * 20)  # PCAP header
