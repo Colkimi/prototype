@@ -73,6 +73,7 @@ class ChallengeGenerator:
         # Generate challenge files
         return self._generate_web_challenge_files(challenge_type, challenge_dir, db_path, flag)
 
+    #setting up the db for the web challenge
     def _setup_database(self, db_path: Path, flag: str) -> None:
         """Setup SQLite database for web challenges"""
         conn = sqlite3.connect(db_path)
