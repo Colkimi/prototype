@@ -2,6 +2,7 @@
 import os
 import uuid
 import argparse
+#Arguement parsing from usage commands
 import sqlite3
 import random
 import base64
@@ -11,7 +12,7 @@ from pathlib import Path
 from enum import Enum, auto
 from typing import Optional, Dict, Any
 import hashlib
-from cryptography.fernet import Fernet  # For better crypto challenges
+from cryptography.fernet import Fernet
 
 class ChallengeType(Enum):
     WEB = auto()
